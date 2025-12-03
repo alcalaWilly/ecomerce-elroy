@@ -18744,8 +18744,8 @@ input:focus {
 
 @font-face {
   font-family: 'Poppins';
-  src: url("../../fonts/Poppins/Poppins-ExtraBold.eot");
-  src: url("../../fonts/Poppins/Poppins-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../../fonts/Poppins/Poppins-ExtraBold.woff2") format("woff2"), url("../../fonts/Poppins/Poppins-ExtraBold.woff") format("woff"), url("../../fonts/Poppins/Poppins-ExtraBold.ttf") format("truetype");
+  /* src: url("../../fonts/Poppins/Poppins-ExtraBold.eot"); */
+  src: url("../../fonts/Poppins/Poppins-ExtraBold.woff2") format("woff2"), url("../../fonts/Poppins/Poppins-ExtraBold.woff") format("woff"), url("../../fonts/Poppins/Poppins-ExtraBold.ttf") format("truetype");
   font-weight: 800;
   font-style: normal;
 }
