@@ -18741,10 +18741,9 @@ input:focus {
   border-color: transparent;
   outline: none;
 }
-
+/* 
 @font-face {
   font-family: 'Poppins';
-  /* src: url("../../fonts/Poppins/Poppins-ExtraBold.eot"); */
   src: url("../../fonts/Poppins/Poppins-ExtraBold.woff2") format("woff2"), url("../../fonts/Poppins/Poppins-ExtraBold.woff") format("woff"), url("../../fonts/Poppins/Poppins-ExtraBold.ttf") format("truetype");
   font-weight: 800;
   font-style: normal;
@@ -18812,7 +18811,7 @@ input:focus {
   src: url("../../fonts/Poppins/Poppins-Light.eot?#iefix") format("embedded-opentype"), url("../../fonts/Poppins/Poppins-Light.woff2") format("woff2"), url("../../fonts/Poppins/Poppins-Light.woff") format("woff"), url("../../fonts/Poppins/Poppins-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
-}
+} */
 
 .bg-twitter {
   background: #2caae1;
