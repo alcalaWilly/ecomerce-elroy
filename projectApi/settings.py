@@ -40,9 +40,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # DEBUG = True
 
 # para render
-# DEBUG = config('DEBUG', default=True, cast=bool)
+DEBUG = config('DEBUG', default=False, cast=bool)
 # desarrollo.................................
-DEBUG = 'RENDER' not in os.environ
+# DEBUG = 'RENDER' not in os.environ
 
 ALLOWED_HOSTS = []
 
