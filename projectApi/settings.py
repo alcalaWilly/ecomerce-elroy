@@ -242,16 +242,15 @@ USE_TZ = True
 
 
 STATIC_URL = '/static/'
-if not DEBUG:
-    STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-MEDIA_URL = '/media/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')   # <-- SIEMPRE DEFINIDO
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'build', 'static')  # Ruta a tu carpeta de archivos estáticos
+    os.path.join(BASE_DIR, 'build', 'static'),
 ]
+
+if not DEBUG:
+    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
 
 SOCIAL_AUTH_PIPELINE = (
     'social_core.pipeline.social_auth.social_details',
