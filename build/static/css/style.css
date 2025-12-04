@@ -1114,7 +1114,7 @@ input {
     max-width: 100%;
     /* Evita restricciones de ancho */
     background: #000;
-    background-image: url('../img/banner2.webp');
+    /* background-image: url('../img/banner2.webp'); */
     min-height: 50vh;
     /* Ajusta la altura mínima */
     display: flex;
