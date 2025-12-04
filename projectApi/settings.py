@@ -40,7 +40,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # DEBUG = True
 
 # para render
-DEBUG = config('DEBUG', default=False, cast=bool)
+DEBUG = config('DEBUG', default=True, cast=bool)
+
 # desarrollo.................................
 # DEBUG = 'RENDER' not in os.environ
 
